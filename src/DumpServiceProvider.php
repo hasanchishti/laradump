@@ -1,5 +1,5 @@
 <?php
-namespace hasan\laradump;
+namespace hasanchishti\laradump;
 use Illuminate\Support\ServiceProvider;
 
 class DumpServiceProvider extends ServiceProvider{
