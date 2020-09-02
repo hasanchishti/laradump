@@ -1,6 +1,6 @@
 <?php
-namespace hasan\laradump;
-namespace hasan\laradump\Console;
+namespace hasanchishti\laradump;
+namespace hasanchishti\laradump\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
