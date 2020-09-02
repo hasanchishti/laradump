@@ -1,0 +1,26 @@
+{
+    "name": "hasan/laradump",
+    "description": "a simple laravel package",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohd-Hasan",
+            "email": "hasanrazachisty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"hasan\\laradump\\":"src/"
+			}
+		},
+	"extra":{
+		"laravel":{
+			"providers":[
+				"hasan\\laradump\\DumpServiceProvider"
+				]
+			}
+		}
+}
